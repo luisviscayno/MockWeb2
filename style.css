@@ -40,53 +40,16 @@
   nav ul div.items a:hover{
     color: rgb(255, 255, 255);
   }
-  nav ul .search-icon{
-    height: 40px;
+  nav ul .icon{
+    height: 20px;
     width: 240px;
     display: flex;
-    background: yellow;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
   }
-  nav ul .search-icon input{
-    height: 100%;
-    width: 200px;
-    border: none;
-    outline: none;
-    padding: 0 10px;
-    color: #000;
-    font-size: 16px;
-    border-radius: 5px 0 0 5px;
-  }
-  nav ul .search-icon .icon{
-    height: 100%;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #fffb00;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-  nav ul .search-icon .icon:hover{
-    background: #000000;
-  }
-  nav ul .search-icon .icon span{
-    color: #222222;
-    font-size: 18px;
-  }
-  nav ul li.btn{
-    font-size: 29px;
-    flex: 1;
-    padding: 0 40px;
-    display: none;
-  }
-  nav ul li.btn span{
-    height: 42px;
-    width: 42px;
-    text-align: center;
-    line-height: 42px;
-    border: 1px solid #151515;
-    border-radius: 5px;
-    cursor: pointer;
+  nav ul .icon span{
+    color: #ffe600;
+    font-size: 20px;
   }
 p{
     color: rgb(0, 0, 0);
@@ -170,9 +133,9 @@ footer{
   bottom: 5;
   left: 0;
   right: 0;
-  background: #111;
+  background: rgb(0, 0, 0);
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 40px;
   color: rgb(255, 238, 0);
 }
