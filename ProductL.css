@@ -332,16 +332,13 @@ body{
   
   .footer-links a{
     text-decoration: none;
-    color: rgb(255, 238, 0);
+    color: rgb(238, 255, 0);
     padding: 5px;
   }
   
-  .footer-links a i{
-    font-size: 1.1rem;
-    width: 20px;
-    transition: color .4s ease;
-  }
   
   .footer-links a:hover i{
     color: aqua;
   }
+  
+  

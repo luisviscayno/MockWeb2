@@ -1,3 +1,4 @@
+
 *{
 
     margin: 0;
@@ -75,8 +76,14 @@ p{
   }
 
 .shoes{
+  color: #000000;
   display: list-item;    
+  text-decoration: none;
  } 
+ shoe-list{
+   text-decoration: none;
+   color: #000000;
+ }
 
 *{
     margin: 0;
@@ -87,6 +94,7 @@ p{
   body{
     background: #fcfcfc;
     font-family: sans-serif;
+    text-decoration: none;
   }
   footer{
     position: absolute;
